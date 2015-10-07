@@ -1,6 +1,6 @@
 ﻿namespace HelloWorld
 {
-    partial class Form1
+    partial class frmHelloWorld
     {
         /// <summary>
         /// Required designer variable.
@@ -41,14 +41,14 @@
             this.lblHelloWorld.TabIndex = 0;
             this.lblHelloWorld.Text = "Hello, World! This is the Great Jar Jar Binks.";
             // 
-            // Form1
+            // frmHelloWorld
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.lblHelloWorld);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "frmHelloWorld";
+            this.Text = "Hello World";
             this.ResumeLayout(false);
             this.PerformLayout();
 
